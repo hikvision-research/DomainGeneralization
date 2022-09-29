@@ -1,0 +1,14 @@
+DATALOADER:
+  
+    # SPLIT:
+  NUM_WORKERS: 6
+
+OPTIM:
+  NAME: 'sgd'
+  
+  LR_SCHEDULER: 'cosine'
+
+MODEL:
+  
+  BACKBONE:
+    PRETRAINED: True
